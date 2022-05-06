@@ -27,7 +27,7 @@ async def on_message(msg):
         return
     else:
         if msg.content == "hello":
-            await msg.channel.send(f"Hello, {username}")
+            await msg.channel.send(f"Howdy, {username}")
 
 
 @bot.event
